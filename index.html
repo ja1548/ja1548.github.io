@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Promo Perkakas - JK Tools</title>
+  <meta name="description" content="Promo spesial kunci shock, gagang kunci, dan perkakas bengkel motor.">
+  <style>
+    body {font-family: Arial, sans-serif; margin:0; padding:0; background:#f5f5f5;}
+    header {background:#111; color:#fff; padding:16px; text-align:center;}
+    header h1 {margin:0; font-size:22px;}
+    .hero {padding:24px; text-align:center; background:#06b6d4; color:white;}
+    .hero h2 {margin-bottom:12px;}
+    .btn {display:inline-block; margin-top:12px; padding:10px 18px; background:#111; color:#fff; border-radius:8px;}
+    .products {display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:16px; padding:24px;}
+    .card {background:#fff; border-radius:10px; padding:14px; box-shadow:0 4px 12px rgba(0,0,0,.1);}
+    .card img {width:100%; border-radius:6px;}
+    .price {color:#d62828; font-weight:bold; font-size:18px;}
+    footer {text-align:center; padding:20px; background:#111; color:#aaa; margin-top:20px;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>JK Perkakas Promo</h1>
+    <p>Kunci & Tools Bengkel Motor</p>
+  </header>
+
+  <section class="hero">
+    <h2>🔥 Promo Gagang Kunci Shock & Set Perkakas</h2>
+    <p>Stok terbatas, bahan chrome vanadium, kuat & awet. Cocok buat servis motor sendiri!</p>
+    <a href="#produk" class="btn">Lihat Produk</a>
+  </section>
+
+  <section id="produk" class="products">
+    <div class="card">
+      <img src="https://via.placeholder.com/400x250?text=Gagang+Kunci+Shock" alt="Gagang Kunci Shock">
+      <h3>Gagang Kunci Shock 1/2"</h3>
+      <p class="price">Rp 125.000</p>
+      <a class="btn" href="https://wa.me/6281234567890?text=Saya+mau+pesan+Gagang+Kunci+Shock" target="_blank">Order via WA</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/400x250?text=Set+Kunci+Sock+46pcs" alt="Set Kunci Sock 46 pcs">
+      <h3>Set Kunci Sock 46 pcs</h3>
+      <p class="price">Rp 425.000 <span style="text-decoration:line-through; color:#888; font-size:14px">Rp 499.000</span></p>
+      <a class="btn" href="https://wa.me/6281234567890?text=Saya+mau+pesan+Set+Kunci+46pcs" target="_blank">Order via WA</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/400x250?text=Kunci+L+Set" alt="Kunci L Set">
+      <h3>Kunci L Set 9 pcs</h3>
+      <p class="price">Rp 75.000</p>
+      <a class="btn" href="https://wa.me/6281234567890?text=Saya+mau+pesan+Kunci+L+Set" target="_blank">Order via WA</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; <span id="year"></span> JK Perkakas | WA: 0812-3456-7890
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
