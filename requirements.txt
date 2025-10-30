@@ -1,4 +1,5 @@
-openai
 gradio
-python-dotenv
+transformers
+torch
 Pillow
+sentencepiece
